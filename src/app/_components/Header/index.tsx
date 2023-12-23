@@ -15,7 +15,7 @@ export async function Header() {
   try {
     header = await fetchHeader()
   } catch (error) {
-    console.error(error)
+    console.error(error) // eslint-disable-line no-console
   }
 
   return (
